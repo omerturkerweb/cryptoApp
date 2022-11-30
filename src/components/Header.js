@@ -23,10 +23,11 @@ import React from 'react'
       }
       const HeaderMenu = () => {
           return(
-            <div className="HeaderMenu flex text-white justify-center content-center">
-              <a className='mx-3 p-2 border-b-2' href='#'>home</a>
-              <a className='mx-3 p-2 text-app-half-passive border-b border-gray-400 hover:text-white hover:border-b-2  transition-all' href='#'>about</a>
-              <a className='mx-3 p-2 text-app-half-passive border-b border-gray-400 hover:text-white hover:border-b-2 transition-all' href='#'>contact</a>
+            <div className="HeaderMenu flex  text-white justify-center content-center">
+              <a className='mx-3 menu-item  p-2 border-b-2' href='#'>home</a>
+              <a className='mx-3 menu-item p-2 text-app-half-passive border-b border-gray-400 hover:text-white hover:border-b-2  transition-all' href='#'>about</a>
+              <a className='mx-3 menu-item p-2 text-app-half-passive border-b border-gray-400 hover:text-white hover:border-b-2 transition-all' href='#'>contact</a>
+              <div className="bars-mobil text-5xl  mr-10 invisible transition-all opacity-0"><i className="fa-solid fa-bars"></i></div>
             </div>
           )
       }

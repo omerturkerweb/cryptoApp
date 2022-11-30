@@ -32,6 +32,9 @@ module.exports = {
             },
             dropShadow : {
               'app-social' : '0 0 5px white'
+            },
+            minWidth : {
+              'app-size' : '750px'
             }
           
     },

@@ -41,5 +41,88 @@ body {
 #container {
     width:60%;
     margin:0 auto;
+    
+}
+.Container:hover {
+    cursor:pointer;
+    transition:all .2s;
+    background-color:#292a2c;
 }
 
+@media only screen and (max-width : 768px)  {
+ 
+
+   .bars-mobil {
+    user-select:none;
+    cursor:pointer;
+    opacity:1;
+    visibility: visible;
+   }
+   .menu-item {
+    display:none;
+    visibility:hidden;
+    opacity:0;
+   }
+   .Header {
+   justify-content: space-evenly;
+   }
+
+   .search-input {
+    width:400px;
+    margin-left:10%;
+   
+   }
+   .search-icon {
+    transition: all .2s;
+   margin-right:50px;
+   }
+   .ContainerInfo {
+    justify-content:center;
+   }
+   .info-item {
+    transition: all .3s;
+    visibility: hidden;
+    opacity:0;
+   }
+   .ContainerInfo {
+    height:15px;
+    width:80%;
+    margin: 10px auto;
+   }
+   .Container {
+    width:500px;
+    height:220px;
+    border-radius:30px;
+    display:block;
+   }
+   .coin-image {
+    width:150px;
+    left:15px;
+
+   }
+   .coin-name {
+    position: absolute;
+    top:15px;
+    right:41%;
+   }
+   .lastPrice {
+    position: absolute;
+    top:38%;
+    left:45%;
+   }
+   .volume {
+    position: absolute;
+    left: 43%;
+    bottom:5%;
+   }
+   .rank {
+    position: absolute;
+    top:5%;
+    right:5%;
+   }
+   .change {
+    position: absolute;
+    bottom:25%;
+    right:5%;
+   }
+}

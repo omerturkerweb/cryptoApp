@@ -60,7 +60,7 @@ function App() {
         id="loader"
         cssOverride={override}
         />
-        :<div id='container'>
+        :<div className='min-w-app-size' id='container'>
 
              <Header/>
 

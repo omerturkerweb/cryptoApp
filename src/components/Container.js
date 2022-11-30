@@ -10,12 +10,12 @@ import React from 'react'
        return result;
      }  
   return (
-    <div className='Container pl-20 p-14 my-8 mx-auto text-white flex justify-evenly items-center shadow-app-white  border border-b-gray-300 rounded relative'>
+    <div className='Container pl-20 p-14 my-8  mx-auto text-white flex justify-evenly items-center shadow-app-white  border border-b-gray-300 rounded relative'>
 
     <div className="name-volume">
        <img  src={img} className='coin-image absolute w-20 rounded-2xl left-10 top-10'></img>  
-        <h3 className='coin-name'>{symbol.toUpperCase()}</h3>
-        <span className='absolute top-14 left-56 text-sm text-app-passive'> /USDT </span>
+        <h3 className='coin-name'>{symbol.toUpperCase()}    <span className='text-app-half-passive text-xs'> /USDT </span> </h3>
+     
         <p className='volume text-app-half-passive'>{volumeSlicer(volume)}</p>
     </div>
     <div className="lastPrice">
