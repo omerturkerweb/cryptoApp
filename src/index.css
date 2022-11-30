@@ -125,4 +125,10 @@ body {
     bottom:25%;
     right:5%;
    }
+   .api-key {
+    transition: all .3s;
+    position: absolute;
+    bottom:5%;
+    left:10%;
+   }
 }
