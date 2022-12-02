@@ -1,3 +1,39 @@
+
+# Crypto App With Open Source Api
+
+I made it Crypto App page using Open Source Api with React.
+  
+## Used Technologies
+
+- HTML5
+- CSS3
+- TailwindCSS
+- JavaScript
+
+
+## Screenshots
+
+![ScreenShot](https://img001.prntscr.com/file/img001/nRL5SdpTS9iastkr9vv4hw.png)
+
+![ScreenShot](https://img001.prntscr.com/file/img001/uK6sKtCLT82cB8L4JkV1Ng.png)
+
+
+
+
+## Demo
+
+- https://omerturkerweb-cryptoapp.netlify.app/
+
+ ## API Usage
+
+#### Get All Values
+
+```
+  GET / https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false
+```
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
